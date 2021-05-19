@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 2;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #1b2631;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#HomeHeader {
+  background-color: #2e4053;
+  height: 100px;
+  width: 100%;
+}
+
+#HomeHeaderTitle {
+  color: #ffffff;
+  font-weight: bold;
+}
+.HomeBoldKey {
+  font-size: 16px;
+  font-weight: bold;
+}
+#HomeHeaderDarkMode {
+  color: #ffffff;
+}
+
+#HomeHeaderDarkMode:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.HomeCountryCard {
+  background-color: #2e4053;
+  border-radius: 6px;
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 380px;
+  width: 300px;
+}
+
+.HomeCountryCard:hover {
+  cursor: pointer;
+}
+
+.HomeCountryCardImage {
+  border-radius: 6px 6px 0px 0px;
+  height: 200px;
+  min-width: 275px;
+  width: 300px;
+}
+
+.HomeCountryCardCountryName {
+  color: #ffffff;
+  margin-left: 35px;
+}
+
+.HomeCountryCardCountryPopulation {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.HomeCountryCardCountryReigon {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.HomeCountryCardCountryCapital {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.column {
+  align-items: flex-;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-row-gap: 25px;
+  grid-template-columns: auto auto auto auto auto;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 1600px) {
+  .cardsGrid {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .cardsGrid {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: auto auto auto;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .cardsGrid {
+    column-gap: 25px;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: auto auto;
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .cardsGrid {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: auto;
+    margin-left: 20%;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "firsttask",
+  "version": "1.0.0",
+  "description": "testing task ",
+  "main": "home/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maher Alzu'bi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
