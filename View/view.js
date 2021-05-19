@@ -170,3 +170,5 @@ function changeDarkMode() {
   isDarkMode = !isDarkMode;
   displayTheme(isDarkMode);
 }
+
+console.log("Empty commit");
